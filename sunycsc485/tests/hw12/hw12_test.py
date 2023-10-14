@@ -1,4 +1,4 @@
-from csc485.projects.hw12.hw12 import is_it_a_fruit
+from sunycsc485.projects.hw12.hw12 import is_it_a_fruit
 import pytest
 @pytest.mark.parametrize('fruit_candidate', ['apple', 'pear', 'bananna', 'grape'])
 

@@ -1,4 +1,4 @@
-from csc485.projects.hw11.hw11p2 import get_formal_name
+from sunycsc485.projects.hw11.hw11p2 import get_formal_name
 import pytest
 
 def test_fruit_key_apple():
