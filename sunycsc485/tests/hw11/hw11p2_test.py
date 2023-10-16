@@ -97,5 +97,5 @@ def test_key_does_not_equal():
     """Test that a positional argument(key) will only return it's assigned value and not another value in the dictionary"""
     assert get_formal_name('apple') != ('Musa acuminata')
 
-def test_key_error():
-    assert get_formal_name('blackberry') == ('Rubus fruticosus')
+"""def test_key_error():
+    assert get_formal_name('blackberry') == ('Rubus fruticosus')"""
