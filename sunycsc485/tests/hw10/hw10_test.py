@@ -1,4 +1,4 @@
-from csc485.projects.hw10.hw10 import is_it_a_fruit
+from sunycsc485.projects.hw10.hw10 import is_it_a_fruit
 import pytest
 
 
