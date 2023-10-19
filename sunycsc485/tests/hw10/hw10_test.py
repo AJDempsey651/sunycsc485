@@ -30,7 +30,7 @@ def test_integer():
 
 def test_banana_spelling():
     """test_banana_spelling tests to make sure the correct spelling of banana
-    will not return True"""
+     will not return True"""
     assert is_it_a_fruit('banana') == False
 
 
@@ -41,7 +41,7 @@ def test_random_string():
 
 def test_multiple_inputs():
     """test_multiple_inputs tests to make sure that multiple inputs as strings
-    will return with a TypeError"""
+     will return with a TypeError"""
     with pytest.raises(Exception) as e:
         is_it_a_fruit('apple', 'pear')
     assert e.type == TypeError
