@@ -23,21 +23,25 @@ def test_fruit_is_grape():
 
 
 def test_integer():
-    """test_integer tests to make sure that there are no integers in is_it_a_fruit"""
+    """test_integer tests to make sure that there are no integers in
+    is_it_a_fruit"""
     assert is_it_a_fruit(5) == False
 
 
 def test_banana_spelling():
-    """test_banana_spelling tests to make sure the correct spelling of banana will not return True"""
+    """test_banana_spelling tests to make sure the correct spelling of banana
+    will not return True"""
     assert is_it_a_fruit('banana') == False
 
 
 def test_random_string():
-    """test_random_string tests to make sure a random input as a string will not return True"""
+    """test_random_string tests to make sure a random input as a string will
+    not return True"""
     assert is_it_a_fruit('wrench') == False
 
 def test_multiple_inputs():
-    """test_multiple_inputs tests to make sure that multiple inputs as strings will return with a TypeError"""
+    """test_multiple_inputs tests to make sure that multiple inputs as strings
+    will return with a TypeError"""
     with pytest.raises(Exception) as e:
         is_it_a_fruit('apple', 'pear')
     assert e.type == TypeError
