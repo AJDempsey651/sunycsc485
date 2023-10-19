@@ -39,6 +39,7 @@ def test_random_string():
     not return True"""
     assert is_it_a_fruit('wrench') == False
 
+
 def test_multiple_inputs():
     """test_multiple_inputs tests to make sure that multiple inputs as strings
      will return with a TypeError"""
